@@ -8,7 +8,7 @@ angular.module('starter', ['ionic', 'ngCordova','ngRoute', 'starter.controllers'
 
 .run(function($ionicPlatform, $ionicPopup,$cordovaPush,$rootScope,$http,$cordovaSQLite,$cordovaFileTransfer,$cordovaFile,$cordovaNetwork,$timeout,$ionicLoading,$cordovaDialogs,$q) {
         $ionicPlatform.ready(function($scope,$location) {
-                
+                alert("inside ionic");
                 $ionicPlatform.registerBackButtonAction(function(event) {
                 if (true) { 
                         var menuUrl=localStorage.getItem("menuUrl");
@@ -60,7 +60,7 @@ angular.module('starter', ['ionic', 'ngCordova','ngRoute', 'starter.controllers'
                 
                 
             if(window.Connection) {
-                
+                alert("Connection");
                         var initStatus = 0;
                         localStorage.setItem("cartCount", 0);
                         localStorage.setItem("businessId",1);
