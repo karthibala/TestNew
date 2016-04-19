@@ -1,0 +1,51 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "cordova-plugin-datepicker": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "org.apache.cordova.file-transfer": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "{f38a8b20-fb1b-11e5-9233-c7765bb00a82}"
+        }
+    },
+    "dependent_plugins": {}
+}

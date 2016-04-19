@@ -1,0 +1,51 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "cordova-plugin-datepicker": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "org.apache.cordova.file-transfer": {
+            "PACKAGE_NAME": "Branbox"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "Branbox"
+        }
+    },
+    "dependent_plugins": {}
+}
