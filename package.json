@@ -28,8 +28,6 @@
   "cordovaPlatforms": [
     {
       "platform": "android",
-      "platform": "ios",
-      "platform": "wp8",
       "locator": "wp8"
     }
   ]
