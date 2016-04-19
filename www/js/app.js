@@ -66,6 +66,7 @@ angular.module('starter', ['ionic', 'ngCordova','ngRoute', 'starter.controllers'
                         localStorage.setItem("businessId",1);
                         var businessId= localStorage.getItem("businessId");               
                         var firsttimeInitilaization=localStorage.getItem("firsttimeInitilaization");
+                        alert(firsttimeInitilaization);
                         if (firsttimeInitilaization==null)
                         {
                                 
@@ -189,8 +190,8 @@ angular.module('starter', ['ionic', 'ngCordova','ngRoute', 'starter.controllers'
                                             tx.executeSql('INSERT OR REPLACE INTO subMenu (id,businessId,menuId, name,image, position, status, online,submenuchiled) VALUES("' + subMenuData[i].id + '","' + subMenuData[i].businessId + '","'+subMenuData[i].menuId+ '","' + subMenuData[i].name + '","' + subMenuData[i].image + '","' + subMenuData[i].position + '", "' + subMenuData[i].status +'", "' + subMenuData[i].online +'", "' + subMenuData[i].submenuchiled +'")',successID);
                                         }
                                         tx.executeSql("SELECT * FROM  subMenu", [], function(tx, results) {
-                                           // alert("SELECT QUERY");
-                                            //alert("Sub menu->"+results.rows.item(5).sNo);
+                                            alert("SELECT QUERY");
+                                            alert("Sub menu->"+results.rows.item(5).sNo);
                                         });
                                     });
                                     /* colorSetting */
