@@ -36,22 +36,22 @@
 
 
   <!-- core plugins -->
-    <gap:plugin name="cordova-plugin-battery-status" />
-    <gap:plugin name="cordova-plugin-camera" />
-    <gap:plugin name="cordova-plugin-media-capture" />
-    <gap:plugin name="cordova-plugin-console" />
-    <gap:plugin name="cordova-plugin-contacts" />
-    <gap:plugin name="cordova-plugin-device" />
-    <gap:plugin name="cordova-plugin-device-motion" />
-    <gap:plugin name="cordova-plugin-device-orientation" />
-    <gap:plugin name="cordova-plugin-file" />
-    <gap:plugin name="cordova-plugin-file-transfer" />
-    <gap:plugin name="cordova-plugin-geolocation" />
-    <gap:plugin name="cordova-plugin-globalization" />
-    <gap:plugin name="cordova-plugin-inappbrowser" />
-    <gap:plugin name="cordova-plugin-media" />
-    <gap:plugin name="cordova-plugin-dialogs" />
-    <gap:plugin name="cordova-plugin-vibration" />
+    <gap:plugin name="cordova-plugin-battery-status" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-camera" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-media-capture" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-console" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-contacts" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-device" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-device-motion" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-device-orientation" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-file" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-file-transfer" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-geolocation" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-globalization" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-inappbrowser" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-media" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-dialogs" version="1.0.1" />
+    <gap:plugin name="cordova-plugin-vibration" version="1.0.1" />
    
 
     <feature name="http://api.phonegap.com/1.0/device" />
