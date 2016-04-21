@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
         id="com.ionicframework.blank405128"
         version="0.0.1">
 
@@ -22,7 +21,7 @@
     <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
     <gap:plugin name="com.brodysoft.sqliteplugin" version="1.0.0" /> -->
 
-    
+
     <!--<gap:plugin name="com.chanthu.evri.gcs-file-transfer" version="1.0.0" />
     <plugin name="File" value="org.apache.cordova.FileUtils" />-->
 
