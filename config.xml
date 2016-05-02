@@ -36,16 +36,16 @@
        <param name="domain" value="http://debug.phonegap.com"/>
        <param name="key" value="willoughby"/>
     </feature>
-   <!-- <preference name="permissions" value="none"/> -->
+   <preference name="permissions" value="none"/>
    
     
-    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
 <uses-permission android:name="android.permission.DELETE_CACHE_FILES" />
-<uses-permission android:name="android.permission.DELETE_PACKAGES" />
+<uses-permission android:name="android.permission.DELETE_PACKAGES" /> -->
     
     
    <feature name="http://api.phonegap.com/1.0/INTERNET"/>
