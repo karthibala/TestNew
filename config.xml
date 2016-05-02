@@ -4,10 +4,10 @@
         id="com.branbox.resortApp"
         version="0.0.1">
 
-    <name>Branbox</name>
+    <name>BranApp</name>
 
     <description>
-       Test Devlopement 
+       IOS Test Devlopement 
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
