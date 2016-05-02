@@ -2705,7 +2705,7 @@ angular.module('starter.controllers', [])
         $http.post('http://branboxadmin.elasticbeanstalk.com/branboxApp/registerUser.php',{busId:bussinessId,fname:fname,password:password,gender:gender,dob:dob,email:email,mobile:mobile,address1:address1,address2:address2,country:country,state:state,city:city,code:code,regid:regid}, {headers: {'Content-Type': 'application/x-www-form-urlencoded'} })
         //$http.post('http://www.sedarspine.com/BranboxAppMail/registerUser.php',{busId:bussinessId,fname:fname,password:password,gender:gender,dob:dob,email:email,mobile:mobile,address1:address1,address2:address2,country:country,state:state,city:city,code:code}, {headers: {'Content-Type': 'application/x-www-form-urlencoded'} })
         .success(function (data) {
-            alert(data.rows[0].id);
+            //alert(data.rows[0].id);
 			localStorage.setItem("email", email);
 			window.location="index.html";
 			localStorage.setItem("registered","yes");
